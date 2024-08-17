@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1A1A40;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FF6F61;
+    width: 500px;
+    text-align: center;
+    margin: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+button {
+    background-color: #FFD700;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px #B8860B; 
+    transition: transform 0.1s ease-in-out;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #B8860B; 
+}
+
+ li {
+    list-style-type: none;
+}
+
+summary {
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.playing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player, #computer {
+    margin: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#options-container {
+    border: 2px solid gold;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+}
