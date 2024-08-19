@@ -10,9 +10,9 @@
     <h1>Rock Paper Scissors</h1>
     <h2>Let The Games Begin</h2>
     <main>
-        <details id="rules-container">
+        <details class="rules-container">
             <summary id="select-button">Rules to the game</summary>
-            <div id="options-container" class="hidden">
+            <div id="options-container">
                 <p>You will be playing against the computer.</p>
                 <p>You can choose between Rock, Paper, and Scissors.</p>
                 <p>The first one to three points wins.</p>
@@ -29,15 +29,19 @@
             </div>
         </details>
         <div class="playing-container">
-            <div id="player-score">Player Score:</div>
-            <div id="computer-score">Computer Score:</div>
+            <div>Player Score: <span class="score" id="player-score">0</span></div>
+            <div>Computer Score: <span class="score" id="computer-score">0</span></div>
         </div>
-        <div id="choice-container">
+        <div class="choice-container">
             <button id="rock">Rock</button>
             <button id="paper">Paper</button>
             <button id="scissors">Scissors</button>
         </div>
-        <div id="results"></div>
+        <div id="results">
+            <p id="results-msg"></p>
+            <p id="winner-msg"></p>
+            <button class="btn" id="reset-game-btn">Play again?</button>
+        </div>
     </main>
     <script src="./script.js"></script>
 </body>

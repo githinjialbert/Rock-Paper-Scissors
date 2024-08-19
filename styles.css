@@ -58,18 +58,6 @@ summary {
     cursor: pointer;
 }
 
-.playing-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#player, #computer {
-    margin: 20px;
-    color: black;
-    font-weight: bold;
-}
-
 #options-container {
     border: 2px solid gold;
     color: black;
